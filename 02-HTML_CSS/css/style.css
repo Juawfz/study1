@@ -1,0 +1,139 @@
+/* Nama file : style.css
+autor: Nazwa Yupada Putri Sitorus
+created at: 17/09/2024 10:54 */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color:rgba(255, 242, 101, 0.557);
+    display: flex ;
+    position: sticky;
+    top: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin: 7px;
+}
+nav ul li .item:hover {
+    background-color:beige;
+   border-radius: 7px;
+    padding: 5px;
+    font-size: 18px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+nav ul li .logo {
+    margin-right: 120px;
+    font-weight: bold;
+    font-size: larger;
+
+}
+nav ul li .login {
+    margin-left : 800px;
+    font-weight: bold;
+    font-size: larger;
+}
+#jua{
+    background-color: rgba(249, 191, 55, 0.626);
+text-align: center;
+padding: 30px;
+}
+.jua-img img {
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    border-radius:  100%;
+}
+.jua-text h2  {
+    color: white;
+    margin-bottom: 30px;
+}
+.jua-text h2  {
+    margin-bottom: 0px;
+}
+#about-me{
+    background-color: rgba(255, 241, 88, 0.326);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 17px;
+    border-radius: 20px;
+    margin-top: -20px;
+}
+#projects{
+    text-align: center;
+    margin: left 100px;
+    margin-right: 100px;
+}
+.kotak{
+    width: 300px;
+    display:inline-block;
+    margin: 5px;
+    padding: 7px;
+    border: 1px solid;
+    background-color: blanchedalmond;
+}
+
+#client{
+    text-align: center;
+    margin: left 100px;
+    margin-right: 100px;
+
+}
+
+.box-item {
+    display: inline-block;
+}
+
+.box-item img{
+    height: 100px;
+    width: 100px;
+    border-radius: 7px;
+    border: 2px dotted;
+    object-fit: cover;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width:767px) {
+    #about-me{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    nav ul li .logo {
+        margin-right: 7px;
+        font-weight: bold;
+        font-size: 14px;
+    
+    }
+    nav ul li .login {
+        margin-left : 10px;
+    }
+
+    #projects{
+        margin: left 10px;
+        margin-right: 10px;
+    }
+
+    #client{
+        text-align: center;
+        margin: left 10px;
+        margin-right: 10px;
+    
+    }
+
+
+    
+}
